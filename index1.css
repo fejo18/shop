@@ -1,0 +1,173 @@
+body,
+#main-content,
+#header,
+#navigation,
+#product-table,
+#footer,
+form {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#main-content {
+    padding: 1em;
+    background-color: #F2F2F2;
+}
+
+#header {
+    background-color: #3B945E;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 1em;
+}
+
+#navigation { 
+    background-color: #57BA98; 
+    padding: 1em; 
+    position: fixed; 
+    bottom: 0; 
+    right: 0; 
+    margin-bottom: 10px; 
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#product-table th, #product-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #F2F2F2;
+    background-color: #3B945E;
+}
+
+#product-table th {
+    background-color: #57BA98 ;
+    color: black;
+}
+body {
+    background-color: #C5C6C7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3B945E;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 1em;
+}
+
+nav { 
+        background-color: #65CCB8; 
+        padding: 1em; 
+        position: fixed; 
+        bottom: 0; 
+        right: 0; 
+        margin-bottom: 10px; 
+    }
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 1em;
+}
+
+form {
+    background-color: #57BA98;
+    color: white;
+    padding: 1em;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #65CCB8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #F2F2F2;
+}
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3B945E;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+        background-color: #65CCB8; 
+        padding: 1em; 
+        position: fixed; 
+        bottom: 0; 
+        right: 0; 
+        margin-bottom: 10px; 
+    }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 1em;
+}
+
+img { 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    display: block; 
+    margin: 15px auto; 
+}
+
+p {
+    max-width: 600px;
+    margin: 15px auto;
+}
